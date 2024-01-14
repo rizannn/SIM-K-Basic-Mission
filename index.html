@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chillout Coffee</title>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet" />
+    <!-- icon -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- example icon
+     <i data-feather="circle"></i> -->
+
+    <!-- bagian header -->
+    <!-- <div class="container"> -->
+    <header>
+      <img src="img/Logo.png" alt="logo-chillout" />
+      <!-- <h1>ChilloutCoffee<span>House</span>.</h1> -->
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Menu</a>
+        <a href="#">Contact</a>
+      </nav>
+      <div class="ext">
+        <a href="#"><i data-feather="user"></i></a>
+        <a href="#"><i data-feather="shopping-cart"></i></a>
+        <a href="#" id="menu"><i data-feather="menu"></i></a>
+      </div>
+    </header>
+    <!-- landing page -->
+    <main>
+      <div class="col">
+        <section class="column1">
+          <!-- <img src="img/coffee2.png" alt="menu-chillout" /> -->
+          <h2><span>Happy New Year!</span> New Year, New Promo. <span>discounts up to 50%</span></h2>
+          <p>flash sale in the new year, Valid until 10-01-2024</p>
+          <a href="#" class="btn">Order Now</a>
+        </section>
+        <section class="column2">
+          <h2>Join <span>Us</span></h2>
+          <p>join us and you will get interesting promo info from us</p>
+          <form action="" name="form-login" method="get">
+            <!-- <label for="email">Masukan Email :</label> -->
+            <input type="text" name="username" id="username" required placeholder="username" />
+            <input type="email" name="email" id="email" required placeholder="Email" />
+            <input type="password" name="password" id="password" required placeholder="password" />
+            <!-- <label for="pesan">Masukan Pesan :</label> -->
+            <!-- <textarea name="pesan" id="pesan" cols="10" rows="5" required placeholder="Message"></textarea> -->
+            <button type="submit">Sign Up</button>
+            <p class="eaa">do you have an account?<a href="#"> Login</a></p>
+          </form>
+        </section>
+      </div>
+    </main>
+    <!-- bagian footer -->
+    <footer>
+      <div class="contact">
+        <div class="hub">
+          <a href="#"><i data-feather="phone"></i></a>
+          <p>(62+)895-012-345</p>
+        </div>
+        <div class="hub">
+          <a href="#"><i data-feather="mail"></i></a>
+          <p>chilloutcoffee@gmail.com</p>
+        </div>
+      </div>
+      <p class="credit">Created with enthusiastic&#x270C; by Rizan Ramdani &copy; 2024</p>
+      <div class="sosmed">
+        <p>follow us :</p>
+        <a href="#"><i data-feather="instagram"></i></a>
+        <a href="#"><i data-feather="twitter"></i></a>
+        <a href="#"><i data-feather="facebook"></i></a>
+      </div>
+    </footer>
+    <!-- js -->
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>

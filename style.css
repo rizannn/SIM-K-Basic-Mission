@@ -1,0 +1,287 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background-image: url("img/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vhd;
+  background-position: center;
+}
+
+.feather {
+  width: 1.5rem;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 5%;
+}
+header img {
+  width: 12rem;
+}
+
+header nav a {
+  color: #fff;
+  margin: 1rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+header nav a:hover {
+  color: darkred;
+}
+
+header .ext a {
+  margin: 1rem;
+  color: #fff;
+}
+
+header .ext a:hover {
+  color: darkred;
+}
+
+#menu {
+  display: none;
+}
+
+.col {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 1.5rem;
+  background-color: rgba(0, 0, 0, 30%);
+  padding: 2rem 5%;
+}
+
+.col .column1 {
+  max-width: 40rem;
+}
+
+.col .column1 h2 {
+  font-size: 2.3rem;
+  font-weight: 900;
+  color: #fff;
+}
+
+.col .column1 h2 span {
+  color: darkred;
+}
+
+.col .column1 p {
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+}
+.col .btn {
+  color: #fff;
+  font-size: 1rem;
+  background-color: darkred;
+  padding: 0.8rem 1.5rem;
+  border-radius: 0.6rem;
+  border: none;
+  box-shadow: 0.1rem 0.1rem 0.5rem black;
+}
+
+.col .column2 {
+  color: #fff;
+}
+
+.col .column2 h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+.col .column2 h2 span {
+  color: #0886e6;
+}
+.col .column2 p {
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+.col .column2 label {
+  display: block;
+  padding: 0.3rem;
+}
+
+.col .column2 input {
+  width: 30rem;
+  display: block;
+  font-size: 0.7rem;
+  padding: 0.7rem 1rem;
+  border: none;
+  margin: 1rem 0;
+  outline: none;
+  border-radius: 0.3rem;
+}
+
+.col .column2 button {
+  width: 30rem;
+  border: none;
+  font-size: 1rem;
+  outline: none;
+  background-color: green;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  margin-top: 0.4rem;
+  margin-bottom: 1rem;
+}
+
+.col .column2 .eaa {
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.col .column2 .eaa a {
+  color: #0886e6;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+footer {
+  width: 100%;
+  height: 2rem;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(79, 79, 79);
+  /* background-color: rgba(0, 0, 0, 50%); */
+  padding: 20px 5%;
+}
+
+footer .contact {
+  display: flex;
+}
+footer .hub {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .sosmed {
+  display: flex;
+  align-items: center;
+}
+
+footer p {
+  font-size: 0.8rem;
+  color: #fff;
+}
+
+footer .feather {
+  color: #fff;
+  margin: 0.5rem;
+  width: 1rem;
+}
+
+footer .feather:hover {
+  color: #000;
+}
+
+/* media queries */
+
+@media (max-width: 1166px) {
+  html {
+    font-size: 80%;
+  }
+  .column1 {
+    margin-left: 2.5rem;
+    margin-bottom: 3rem;
+  }
+
+  body {
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  header {
+    margin-bottom: 6rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  html {
+    font-size: 75%;
+  }
+  body {
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  #menu {
+    display: inline-block;
+  }
+  nav {
+    display: none;
+  }
+
+  footer .credit {
+    display: none;
+  }
+}
+@media (max-width: 965px) {
+  html {
+    font-size: 70%;
+  }
+  body {
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  #menu {
+    display: inline-block;
+  }
+  nav {
+    display: none;
+  }
+
+  footer .credit {
+    display: none;
+  }
+}
+
+@media (max-width: 625px) {
+  body {
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  html {
+    font-size: 65%;
+  }
+}
+
+@media (max-width: 495px) {
+  html {
+    font-size: 60%;
+  }
+  body {
+    background-size: cover;
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 300px) {
+  html {
+    font-size: 50%;
+  }
+  body {
+    background-size: cover;
+    background-attachment: fixed;
+  }
+}
